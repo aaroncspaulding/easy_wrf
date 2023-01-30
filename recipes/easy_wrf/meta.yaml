@@ -48,6 +48,7 @@ requirements:
     - libnetcdf
     - netcdf-fortran
     - netcdf-cxx4
+    - jinja2
 
 about:
   home: https://github.com/acs14007/easy_wrf

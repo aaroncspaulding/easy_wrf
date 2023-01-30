@@ -22,3 +22,4 @@ dependencies:
   - libnetcdf
   - netcdf-fortran
   - netcdf-cxx4
+  - jinja2
