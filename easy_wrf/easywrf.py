@@ -28,6 +28,8 @@ class Variables:
         WRF and WPS need environmental variables set
         """
         self.conda_environment_path = os.path.dirname(os.path.dirname(os.__file__))
+        if self.conda_environment_path[-3:] == 'lib':
+            self.conda_environment_path = os.path.dirname(self.conda_environment_path)
 
         self.templates = template
 
@@ -35,8 +37,9 @@ class Variables:
             self.directory = os.path.dirname(os.path.abspath(__file__))
 
     def make_variable_script(self):
+        filename = os.path.join(self.directory, 'set_variables.sh')
         self.templates.modify_template_and_write_out(template_name='set_variables_template.sh',
-                                                     filename='set_variables.sh',
+                                                     filename=filename,
                                                      variables={
                                                          'conda_environment_path': self.conda_environment_path})
 
@@ -97,4 +100,4 @@ if __name__ == '__main__':
     wrf.make_variable_script()
     wrf.make_download_script()
 
-    clean(os.path.dirname(os.path.abspath(__file__)))
+    # clean(os.path.dirname(os.path.abspath(__file__)))

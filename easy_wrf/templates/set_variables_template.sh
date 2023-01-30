@@ -1,3 +1,5 @@
+#!/bin/bash
+
 export CONDADIR={{conda_environment_path}}
 
 export PATH={{conda_environment_path}}/bin:$PATH
