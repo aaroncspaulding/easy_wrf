@@ -33,6 +33,10 @@ requirements:
 build:
   skip: True  # [win or osx or py<35]
 
+test:
+  imports:
+    - jinja2
+
 about:
   home: https://github.com/acs14007/easy_wrf
   summary: 'Easy WRF Installation on Linux'
