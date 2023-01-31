@@ -50,6 +50,10 @@ requirements:
     - netcdf-cxx4
     - jinja2
 
+
+build:
+  skip: True  # [win or osx or py<35]
+
 about:
   home: https://github.com/acs14007/easy_wrf
   summary: 'Easy WRF Installation on Linux'
