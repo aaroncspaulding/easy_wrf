@@ -13,6 +13,7 @@ Please visit the [NCAR tutorial here.](https://www2.mmm.ucar.edu/wrf/OnLineTutor
 You must have a working version of anaconda or miniconda. [This guide](https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html) may be helpful.
 
 ### 2. Create and activate your 'wrf' environment with the WRF dependencies
+***This will only work once the package is merged into the conda-forge channel by the moderators. You can check the review status [here](https://github.com/conda-forge/staged-recipes/pull/21922).***
 You can select any name you want
 ```shell
 conda create -n wrf -c conda-forge easy_wrf
