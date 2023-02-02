@@ -5,7 +5,9 @@ The Weather Research and Forecasting (WRF) Model has many dependencies and is of
 This package has been tested on the UConn HPC cluster and the Heaviside cluster operating on Red Hat Enterprise Linux 8 and Ubuntu 22.  
 
 ## Installation Steps
-Please visit the [NCAR tutorial here.](https://www2.mmm.ucar.edu/wrf/OnLineTutorial/compilation_tutorial.php#STEP4) All steps are similar except that dependencies are installed with anaconda in a user account. This guide skips the included tests.
+Please visit the [NCAR tutorial here.](https://www2.mmm.ucar.edu/wrf/OnLineTutorial/compilation_tutorial.php#STEP4). All steps are similar except for dependency installation. This guide skips testing, however, all the tests should pass once the conda environment is setup and activated.
+
+
 
 ### 1. Install Anaconda
 You must have a working version of anaconda or miniconda. [This guide](https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html) may be helpful.
