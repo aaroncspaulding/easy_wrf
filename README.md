@@ -70,7 +70,11 @@ FFLAGS              = -ffree-form -O -fconvert=big-endian -frecord-marker=4 -fal
 cd ./main
 ```
 
-Make sure to set the ```WRF_DIR``` variable.
+Set the ```WRF_DIR``` variable to point to the directory with the new WRF install.
+
+```shell
+export WRF_DIR=./WRF-4.2.2/
+```
 
 ### 5. Install WPS
 ```shell
