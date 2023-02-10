@@ -39,6 +39,7 @@ export JASPERLIB=$CONDADIR/lib
 export JASPERINC=$CONDADIR/include
 export LIBS=$LIBS" -lnetcdf"
 export NETCDF=$CONDADIR
+export NETCDF_classic=1
 ```
 
 ### 4. Install WRF
