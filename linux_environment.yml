@@ -1,0 +1,25 @@
+name: easy_wrf
+channels:
+  - defaults
+  - conda-forge
+  - anaconda
+dependencies:
+  - gcc
+  - gxx
+  - gfortran
+  - boost-cpp
+  - mpich
+  - netcdf-cxx4
+  - netcdf-fortran
+  - netcdf4
+  - jasper
+  - libpng
+  - zlib
+  - hdf5
+  - ncl
+  - libssh
+  - netcdf4
+  - libnetcdf
+  - netcdf-fortran
+  - netcdf-cxx4
+  - jinja2

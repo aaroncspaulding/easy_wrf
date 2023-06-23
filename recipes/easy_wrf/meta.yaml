@@ -8,14 +8,14 @@ source:
 
 build:
   number: 0
-  skip: True  # [win or osx or py<35]
+  skip: True  # [win or arm64]
 
 requirements:
   run:
+    - {{ compiler('c') }}
+    - {{ compiler('cxx') }}
+    - {{ compiler('fortran') }}
     - python
-    - gfortran
-    - gcc
-    - cxx-compiler
     - boost-cpp
     - mpich
     - netcdf-cxx4

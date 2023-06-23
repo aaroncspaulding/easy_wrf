@@ -1,0 +1,7 @@
+name: conda_package_builder
+channels:
+  - defaults
+  - anaconda
+dependencies:
+  - conda-build
+  - conda-verify
