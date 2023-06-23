@@ -1,8 +1,6 @@
 name: easy_wrf
 channels:
-  - defaults
   - conda-forge
-  - anaconda
 dependencies:
   - clang_osx-64
   - clangxx_osx-64
